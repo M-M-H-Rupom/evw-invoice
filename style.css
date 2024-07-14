@@ -57,7 +57,10 @@
     display: flex;
     flex-direction: column;
 }
-
+/* note text */
+.evw_comment_note{
+    margin: 42px 0 20px 0;
+}
 /* evw_invoice_content */
 .evw_invoice_content .invoice_details_grid{
     display: grid;
@@ -80,15 +83,12 @@
 .invoice_details_grid .item15{
     margin-right:24px;
 }
-.invoice_details_grid .item19{
-    grid-column: 1 / 4;
-}
-.invoice_details_grid .item23{
-    grid-column: 1 / 4;
-}
+.invoice_details_grid .item19,
+.invoice_details_grid .item23,
 .invoice_details_grid .item27{
     grid-column: 1 / 4;
 }
+
 .invoice_details_grid .item20,
 .invoice_details_grid .item21,
 .invoice_details_grid .item22{
@@ -103,10 +103,7 @@
 .invoice_details_grid .item30{
     border-bottom: 1px solid #505050;
 }
-/* note text */
-.evw_comment_note{
-    margin: 42px 0 20px 0;
-}
+
 
 /* term */
 section .evw_terms_payment_section{
@@ -115,7 +112,7 @@ section .evw_terms_payment_section{
 }
 section .evw_terms_payment_section .terms_of_payment_title{
     font-size: 16px;
-    margin: 20px 0 8px 0;
+    margin: 32px 0 8px 0;
 }
 section .evw_terms_payment_section .payment_advance{
     background: #D9D9D9;
